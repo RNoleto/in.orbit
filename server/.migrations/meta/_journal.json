@@ -8,6 +8,13 @@
       "when": 1725975462317,
       "tag": "0000_wise_rattler",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1725977183990,
+      "tag": "0001_zippy_hitman",
+      "breakpoints": true
     }
   ]
 }
