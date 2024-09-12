@@ -26,7 +26,7 @@ export function PendingGoals() {
                     <OutlineButton 
                         key={goal.id} 
                         disabled={goal.completionsCount >= goal.desiredWeeklyFrequency}
-                        onClick={handleCompleteGoal}
+                        onClick={() => handleCompleteGoal(goal.id)}
                     >
                         <Plus className="size-4 text-zinc-600" />
                         {goal.title}
