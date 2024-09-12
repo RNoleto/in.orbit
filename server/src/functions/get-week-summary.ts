@@ -38,6 +38,7 @@ export async function getWeekSummary() {
                     lte(goalCompletions.createdAt, lastDayOfWeek)
                 )
             )
+            .orderBy(desc(goalCompletions.createdAt))
     )
 
     type GoalsPerDay = Record<string, {
